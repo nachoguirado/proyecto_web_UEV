@@ -1,1 +1,0 @@
-El json en el servidor nos va a servir de API, que es donde vamos a realizar la consulta.
