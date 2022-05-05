@@ -1,0 +1,38 @@
+
+[
+    {
+        "id": 1,
+        "pregunta": "Te consideras mas de ciencias o de letras?",
+        "opciones": ["Ciencias biosanitarias(Grupo 1)", "Ciencias tecnológicas (grupo 2)","Intermedio (grupo 3)","Letras (grupo 4)"]
+
+    }
+    ,
+    {
+        "id": 2,
+        "pregunta": "Cual era tu asignatura favorita en bachiller?",
+        "opciones": ["Biologia","Matematicas","Economia","Idiomas"]
+
+    }
+    ,
+    {
+        "id": 3,
+        "pregunta": "En que tipo de empresa te gustaría trabajar:",
+        "opciones": ["Servicio Publico","Big Tech","Consultoria","Multinacional"]
+
+    }
+    ,
+    {
+        "id": 4,
+        "pregunta": "Cual de estas habilidades crees que se te da mejor:",
+        "opciones": ["Tratar con personas","Resolver problemas matematicos","Hablar en publico","Aprender nuevos idiomas"]
+
+    }
+    ,
+    {
+        "id": 5,
+        "pregunta": "Que valoras mas en una carrera:",
+        "opciones": ["Empleabilidad","Poder trabajar en otros paises","Que me guste","Ninguna de las anteriores"]
+
+    }
+]
+
