@@ -1,0 +1,90 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(234, 234, 234);
+    position: relative;
+}
+header{
+    background-color: white;
+    height: 5em;
+    width: 100%;
+    float: left;
+    position: fixed ;
+    top: 0;
+    box-shadow: 0 2px 2px 2px rgba(23, 23, 23, 0.2);
+    margin-left: -8px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ff3228;
+}
+#menu{
+    list-style: none;
+    float: right;
+    position:relative;
+    right: 200px;
+    top: 2em;
+}
+#menu ul{
+    display: inline-block;
+    font-size: large;
+    margin: 0;
+}
+#logo{
+    height: 5em;
+    float: left;
+    
+}
+#informacion{
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 60%;
+    background-color: white;
+    padding: 3em;
+    height: 425px;
+    line-height: 1.6;
+    
+}
+#informacion p{
+    margin-right: 1em;
+}
+#contenido{
+    margin: 0 auto;
+    margin-top: 5em;
+    width: 100%;
+    background-color: white;
+    padding: 3em;
+    text-align: center;
+    margin-left: -8px;
+}
+#botonDirecto{
+    background-color: #ff3228;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    transition: .2s ease-in-out 0s;
+}
+#botonDirecto:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+footer li{
+    list-style: none;   
+    float: right;
+    position:relative;
+    left: -1500px;
+    bottom: 1em;
+}
+footer{
+    background-color: rgb(201, 201, 201);
+    height: 5em;
+    width: 100%;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    margin-left: -8px;
+    
+}
