@@ -5,6 +5,8 @@ let areaPreguntas =  document.getElementById("areaPreguntas");
 let textoPregunta = document.getElementById("pregunta");
 let opciones = document.getElementById("opciones");
 let botonSiguiente = document.createElement("button");
+botonSiguiente.setAttribute("id", "botonSiguiente");
+
 //Aqui definimos todas las variables que vamos a utilizar,document es todo el archivo html, los get element by ID son
 //los elementos del HTML que vamos a guardar en esa variable. 
 
@@ -72,7 +74,7 @@ function makeRequest(){
     /*
     Esta funcion inicia el formulario
     */
-    document.getElementById("start").style.display = "none";
+    document.getElementById("botonDirecto").style.display = "none";
     url = "preguntas.json";
     Ajax(url,readJson);
     botonSiguiente.innerHTML = "Siguiente"; //Anadimos un boton para pasar de pregunta

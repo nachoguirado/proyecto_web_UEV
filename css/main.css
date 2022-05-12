@@ -2,6 +2,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     background-color: rgb(234, 234, 234);
     position: relative;
+    margin: 0;
 }
 header{
     background-color: white;
@@ -11,7 +12,7 @@ header{
     position: fixed ;
     top: 0;
     box-shadow: 0 2px 2px 2px rgba(23, 23, 23, 0.2);
-    margin-left: -8px;
+    
 }
 a:link, a:visited, a:active {
     text-decoration:none;
@@ -58,7 +59,7 @@ a:hover{
     background-color: white;
     padding: 3em;
     text-align: center;
-    margin-left: -8px;
+    
 }
 #botonDirecto{
     background-color: #ff3228;
@@ -73,18 +74,54 @@ a:hover{
 }
 footer li{
     list-style: none;   
-    float: right;
-    position:relative;
-    left: -1500px;
-    bottom: 1em;
+    position: relative;
+    top: 1em;    
+}
+footer ul{
+    display: inline-block;
 }
 footer{
     background-color: rgb(201, 201, 201);
-    height: 5em;
+    height: 6em;
     width: 100%;
     position: absolute;
     float: left;
-    bottom: 0;
-    margin-left: -8px;
+    bottom: 0;    
+}
+footer span{
+    position: relative;
+    top: 5px;
+}
+h1{
+    margin-bottom: 1.5em;
+    margin-top: -0.1em;
+}
+#container{
+    padding-bottom: 2em;
+}
+footer p{
+    position: absolute;
+    right: 100px;
+    top: 0.5em;
+    color: rgb(87, 87, 87);
+}
+#areaPreguntas{
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 60%;
+    background-color: white;
+    padding: 3em;
+    height: 425px;
+    line-height: 1.6;
     
+}
+#botonSiguiente{
+    border: none;
+    background-color: #ff3228;
+    color: white;
+    padding: 0.5em;
+    transition: .2s ease-in-out 0s;
+}
+#botonSiguiente:hover{
+    cursor: pointer;
 }
